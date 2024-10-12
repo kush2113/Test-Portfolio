@@ -1,0 +1,184 @@
+.main5 {
+    background: black;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    top: -50px;
+    min-height: 1000px;
+}
+.overlay-text6 h1 {
+    font-size: 3em;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /*background: red;*/
+    font-family: Arial, sans-serif;
+    z-index: 1;
+
+}
+
+.big {
+    border-radius: 50px;
+    background: black;
+    height: 600px;
+    width: 800px;
+    margin: auto;
+    top: 190px;
+    position: relative;
+    overflow-x: scroll;
+    padding: 5px;
+    /*display: block;*/
+    flex-direction: column;
+
+}
+
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+    /*project01*/
+.p1 {
+    border-radius: 20px;
+    background: white;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    top: 20px;
+    position: relative;
+}
+
+.small1 {
+    background: white;
+    height: 250px;
+    width: 500px;
+    margin:  auto;
+    position: absolute;
+    justify-items: center;
+    left: 0;
+    right: 0;
+    top: -20px;
+    bottom: 0;
+
+
+}
+
+.ass {
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 250px;
+    width: 500px;
+}
+.mvc {
+   position: relative;
+   color: black;
+   top: -10px;
+}
+
+.icon {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    left: 240px;
+    top: 267px;
+
+}
+
+
+   /*project02*/
+
+.p2 {
+    border-radius: 20px;
+    background: white;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    top: 80px;
+    position: relative;
+
+}
+.small2 {
+    background: white;
+    height: 250px;
+    width: 500px;
+    margin:  auto;
+    position: absolute;
+    justify-items: center;
+    left: 0;
+    right: 0;
+    top: -20px;
+    bottom: 0;
+}
+.pro2 {
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 250px;
+    width: 500px;
+}
+.leyer {
+    position: relative;
+    color: black;
+    top: -10px;
+}
+.icon2 {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    left: 240px;
+    top: 267px;
+}
+
+
+   /*project03*/
+
+
+.p3 {
+    border-radius: 20px;
+    background: white;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    top: 140px;
+    position: relative;
+
+}
+
+.icon3 {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    left: 240px;
+    top: 267px;
+}
+
+
+     /*project02*/
+
+.p4 {
+    border-radius: 20px;
+    background: white;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    top: 200px;
+    position: relative;
+}
+
+.icon4 {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    left: 240px;
+    top: 267px;
+}
