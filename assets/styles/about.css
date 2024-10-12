@@ -1,0 +1,76 @@
+main {
+    background: black;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    top: -50px;
+    max-height: 600px;
+
+}
+
+.overlay-text2 h1 {
+    font-size: 3em;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /*background: red;*/
+    font-family: Arial, sans-serif;
+    z-index: 1;
+
+}
+
+.overlay-text2 .text1 {
+    font-size: 2em;
+    position: absolute;
+    left: 19.3%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+    color: white;
+
+}
+
+.overlay-text2 .text2 {
+    font-size: 1.99999em;
+    position: absolute;
+    left: 25.5%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+    color: white;
+
+}
+
+
+.overlay-text2 h4 {
+    font-size: 1.5em;
+    color: white;
+    position: relative;
+    top: -3em;
+    font-weight: normal;
+    font-family: Calibri;
+    line-height: 1.4;
+    margin: 15.0em;
+    right: 6%;
+    text-align: left;
+}
+
+button {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    left: 900px;
+    /*margin-top: 10px; !* Space between text and button *!*/
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 470px;
+
+}
+

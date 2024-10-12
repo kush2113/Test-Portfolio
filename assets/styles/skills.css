@@ -1,0 +1,137 @@
+.main4 {
+    background: black;
+    position: relative;
+    text-align: center;
+    /*width: 100%;*/
+    height: 100vh;
+    overflow: hidden;
+    top: -50px;
+    min-height: 1000px;
+
+}
+
+.overlay-text5 h1 {
+    font-size: 3em;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /*background: red;*/
+    font-family: Arial, sans-serif;
+    z-index: 1;
+
+}
+.skill {
+    background: black;
+    box-shadow: white 0 0 20px;
+    border-radius: 40px;
+    /*border: black solid 1px;*/
+    width: 600px;
+    height: 250px;
+    top: 200px;
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.figma {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    justify-content: space-between;
+}
+.figmatext {
+    color: white;
+    right: 455px;
+    top: 145px;
+    position: absolute;
+    font-family: Arial Black;
+
+}
+
+.git {
+    position: absolute;
+    left: 249px;
+    top: 70px;
+    justify-content: space-between;
+}
+
+.gittext {
+    color: white;
+    right: 273px;
+    top: 145px;
+    position: absolute;
+    font-family: Arial Black;
+}
+
+.vscode {
+    position: absolute;
+    left: 422px;
+    top: 70px;
+    justify-content: space-between;
+}
+.vstext {
+    color: white;
+    right: 90px;
+    top: 145px;
+    position: absolute;
+    font-family: Arial Black;
+}
+
+
+.skill2 {
+    background: black;
+    box-shadow: white 0 0 20px;
+    border-radius: 40px;
+    width: 600px;
+    height: 250px;
+    top: 300px;
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.java {
+    position: absolute;
+    left: 79px;
+    top: 70px;
+    justify-content: space-between;
+}
+.javatext {
+    color: white;
+    right: 455px;
+    top: 145px;
+    position: absolute;
+    font-family: Arial Black;
+}
+
+.mysql {
+    position: absolute;
+    left: 246px;
+    top: 70px;
+    justify-content: space-between;
+}
+.mysqltext {
+    color: white;
+    right: 273px;
+    top: 145px;
+    position: absolute;
+    font-family: Arial Black;
+}
+
+.html {
+    position: absolute;
+    left: 434px;
+    top: 70px;
+    justify-content: space-between;
+}
+.htmltext {
+    color: white;
+    right: 90px;
+    top: 145px;
+    position: absolute;
+    font-family: Arial Black;
+}

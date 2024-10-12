@@ -1,0 +1,71 @@
+
+.main3 {
+    background: black;
+    position: relative;
+    text-align: center;
+    /*width: 100%;*/
+    height: 100vh;
+    overflow: hidden;
+    top: -50px;
+    min-height: 790px;
+
+}
+
+.overlay-text4 h1 {
+    font-size: 3em;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /*background: red;*/
+    font-family: Arial, sans-serif;
+    z-index: 1;
+
+}
+
+.assignment {
+    border-radius: 40px;
+    width: 80%; /* Adjust width to be responsive */
+    max-width: 2000px; /* Max width to prevent it from getting too large */
+    height: 50%; /* Adjust height to be responsive */
+    max-height: 400px;
+    background: black;
+    /*box-shadow: white 0 0 20px;*/
+    position: relative;
+    top: 300px;
+    /*margin: auto;*/
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+/*::-webkit-scrollbar-thumb {*/
+/*    !*background: orangered;*!*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*::-webkit-scrollbar-track {*/
+/*    background: black;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+.second {
+    background: whitesmoke;
+    height: 40vh;
+    min-width: 30%;
+    border-radius: 20px;
+    position: relative;
+    /*top: 200px;*/
+    right: 20%;
+    left: 50%;
+    margin: auto;
+    margin-left: 10px;
+
+}
