@@ -1,4 +1,5 @@
-main {
+.about {
+    flex-wrap: wrap;
     background: black;
     position: relative;
     text-align: center;
@@ -6,71 +7,277 @@ main {
     height: 100vh;
     overflow: hidden;
     top: -50px;
-    max-height: 600px;
+    max-height: 897px;
 
 }
 
-.overlay-text2 h1 {
-    font-size: 3em;
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.about-topic-section {
+    margin: auto;
+    font-size: 4em;
     position: absolute;
-    top: 13%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 103px;
     color: white;
-    /*background: red;*/
     font-family: Arial, sans-serif;
     z-index: 1;
-
 }
 
-.overlay-text2 .text1 {
-    font-size: 2em;
-    position: absolute;
-    left: 19.3%;
-    top: 35%;
-    transform: translate(-50%, -50%);
-    line-height: 1;
+.about-topic-section > label{
+    margin-top: 78px;
     color: white;
-
-}
-
-.overlay-text2 .text2 {
-    font-size: 1.99999em;
-    position: absolute;
-    left: 25.5%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    line-height: 1;
-    color: white;
-
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: -20px;
 }
 
 
-.overlay-text2 h4 {
-    font-size: 1.5em;
-    color: white;
+.about-name-section {
+    margin-left: 250px;
+    top: 282px;
+    width: 1000px;
+    display: grid;
     position: relative;
-    top: -3em;
-    font-weight: normal;
-    font-family: Calibri;
-    line-height: 1.4;
-    margin: 15.0em;
-    right: 6%;
-    text-align: left;
+    align-items: start;
+    justify-items: start;
 }
 
-button {
+#about-name {
+    color: white;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 57px;
+    line-height: 1;
+}
+#about-name-my {
+    color: white;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 45px;
+    line-height: 1;
+}
+
+.about-name-section p {
+    color: darkgray;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    width: 828px;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Apple Symbols";
+}
+
+.download-cv-button {
+
+}
+
+#button-cv {
     border-radius: 30px;
     background-color: white;
     color: black;
-    padding: 15px 30px;
-    font-size: 1em;
+    padding: 15px 47px;
+    font-size: 1.5em;
     border: none;
-    left: 900px;
-    /*margin-top: 10px; !* Space between text and button *!*/
+    left: 616px;
     transition: background-color 0.3s ease;
     position: absolute;
-    top: 470px;
-
+    top: 287px;
 }
 
+@media all and (max-width: 1024px) {
+    .about {
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 700px;
+        /*background-color: yellow;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .about-name-section {
+        margin-left: 105px;
+        top: 124px;
+        width: 1092px;
+    }
+    .about-main-content-section {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: 600px;
+        width: 1000px;
+        position: absolute;
+    }
+
+    .about-topic-section {
+        margin-right: 163px;
+        position: absolute;
+    }
+
+    .about-topic-section > label{
+        margin: auto;
+    }
+
+    #about-name {
+        margin-top: -102px;
+    }
+    #about-name-my {
+        margin-top: -63px;
+    }
+
+    #button-cv {
+        left: 588px;
+        top: 201px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .about {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 20px;
+    }
+
+    .about-name-section {
+        margin: auto;
+        top: 50px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .about-topic-section {
+        margin: 0;
+        text-align: center;
+    }
+
+    #button-cv {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 233px;
+    }
+
+    .about-name-section p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #about-name {
+        font-size: 47px;
+        margin: auto;
+        margin-top: -134px;
+    }
+
+    #about-name-my {
+        font-size: 35px;
+        margin: auto;
+        margin-top: -101px;
+    }
+}
+
+
+
+
+/*@media all and (max-width: 775px) {*/
+/*    .about {*/
+/*        width: 103vw;*/
+/*        height: 100vh;*/
+/*        max-height: 100vh;*/
+/*        min-height: 700px;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        position: relative;*/
+/*    }*/
+/*    .about-name-section {*/
+/*        display: grid;*/
+/*        margin-left: -105px;*/
+/*        top: 73px;*/
+/*        width: 997px;*/
+/*        align-items: start;*/
+/*        justify-content: center;*/
+/*        justify-items: center;*/
+/*    }*/
+/*    .about-main-content-section {*/
+/*        top: 0;*/
+/*        bottom: 0;*/
+/*        margin: auto;*/
+/*        height: 600px;*/
+/*        width: 1000px;*/
+/*        position: absolute;*/
+/*    }*/
+
+
+/*    .about-topic-section {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        width: fit-content;*/
+/*        height: fit-content;*/
+/*        margin: auto;*/
+/*    }*/
+
+/*    .about-topic-section > label{*/
+/*        margin-top: -191px;*/
+/*        margin-right: 128px;*/
+/*    }*/
+
+/*    #about-name {*/
+/*        margin-top: -102px;*/
+/*        font-family: "Vazirmatn", sans-serif;*/
+/*        font-optical-sizing: auto;*/
+/*        font-weight: 500;*/
+/*        font-style: normal;*/
+/*        font-size: 56px;*/
+/*        line-height: 1;*/
+/*    }*/
+/*    #about-name-my {*/
+/*        margin-top: -63px;*/
+/*        font-family: "Vazirmatn", sans-serif;*/
+/*        font-optical-sizing: auto;*/
+/*        font-weight: 500;*/
+/*        font-style: normal;*/
+/*        font-size: 33px;*/
+/*        line-height: 1;*/
+/*    }*/
+
+/*    .about-name-section p {*/
+/*        margin-top: 19px;*/
+/*        margin-bottom: 10px;*/
+/*        width: 828px;*/
+/*        text-align: center;*/
+/*        font-size: 31px;*/
+/*        font-family: "Apple Symbols";*/
+
+/*    }*/
+
+/*    #about-par{*/
+/*        background: yellow;*/
+
+/*    }*/
+
+
+/*    #button-cv {*/
+/*        left: 377px;*/
+/*        top: 225px;*/
+/*    }*/
+/*}*/

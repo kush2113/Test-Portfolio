@@ -12,13 +12,12 @@
 }
 
 .overlay-text3 h1 {
-    font-size: 3em;
+    font-size: 4em;
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /*background: red;*/
     font-family: Arial, sans-serif;
     z-index: 1;
 

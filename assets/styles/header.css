@@ -84,3 +84,20 @@ nav a:hover {
     text-space: 30;
     transform: translate(-50%, -50%);
 }
+
+@media (max-width: 1026px) {
+    header {
+        color: #EEEEEE;
+        background: darkgoldenrod;
+        height: 50px;
+        border-radius:  90px;
+        border: 5px greenyellow ;
+        position: sticky;
+        z-index: 1000;
+        width: 83%;
+        top: 20px;
+        margin: auto;
+
+
+    }
+}
